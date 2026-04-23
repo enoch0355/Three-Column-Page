@@ -1,0 +1,104 @@
+@import url('https://googleapis.com');
+
+h1 {
+  font-family: 'Big Shoulders Display', sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+p {
+  font-family: 'Lexend+Deca', sans-serif;
+  line-height: 1.6;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: hsl(0, 0%, 95%);
+}
+
+body > div {
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 900px;
+}
+
+
+body > div{
+  display: flex;
+  flex-direction: row;
+}
+body > div > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+  padding: 30px;
+  color: white;
+  height: 400px;
+}
+@media (max-width: 500px){
+  body > div{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 20px;
+  }
+  .c1{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .c3{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
+
+.c1{
+  background-color: hsl(31, 77%, 52%);
+  min-height: 300px;
+}
+
+
+.c2{
+  background-color: hsl(184, 100%, 22%);
+  min-height: 300px;
+}
+
+
+
+.c3{
+  background-color: hsl(179, 100%, 13%);
+  min-height: 300px;
+}
+
+p {
+  font-size: 15px;
+}
+
+button{
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+  border: none;
+  max-width: 150px;
+}
+
+.c1 > button{
+  color: hsl(31, 77%, 52%);
+}
+
+.c2 > button{
+  color: hsl(184, 100%, 22%);
+}
+
+.c3 > button{
+  color: hsl(179, 100%, 13%);
+}
+
+p{
+  font-size: 16px;
+}
